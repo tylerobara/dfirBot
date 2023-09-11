@@ -2,11 +2,9 @@
 """
 dfirBot - A Mattermost bot for DFIR triage and incident response
 """
-
+import json
 from mmpy_bot import Bot, Settings
 from dfirBot import DfirBot
-import os
-import json
 
 #config = json.load(open('src/config/config.json'))
 config = json.load(open('/bot/config/config.json', encoding='utf-8'))
