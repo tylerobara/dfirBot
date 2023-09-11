@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dfirbot:
+    container_name: dfirbot
+    image: dfirbot:latest
+    volumes:
+      - "../src/config/config.json:/bot/config/config.json"
+    restart: unless-stopped
+

@@ -1,0 +1,13 @@
+{
+    "mattermost": {
+        "url": "https://mattermost.example.com",
+        "bot": {
+            "team": "chat",
+            "token": "supersecrettoken"
+        }
+    },
+    "thehive": {
+        "url": "https://thehive.example.com",
+        "key": "moresecrets"
+    }
+}
